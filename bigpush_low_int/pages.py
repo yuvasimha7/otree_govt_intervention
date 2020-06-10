@@ -21,7 +21,7 @@ class myPage1(Page):
         if self.subsession.round_number <= self.subsession.random_max_rounds:
             if self.round_number < Constants.govt_int:
                 if self.round_number == 1:
-                    self.player.endowment = c(350)
+                    self.player.endowment = c(100)
 
                 elif self.round_number > 1:
                     self.player.endowment = self.player.in_round(self.player.round_number - 1).payoff
@@ -41,7 +41,7 @@ class myPage2(Page):
         if self.subsession.round_number <= self.subsession.random_max_rounds:
             if self.round_number == Constants.govt_int:
                 if self.round_number == 1:
-                    self.player.endowment = c(350)
+                    self.player.endowment = c(100)
 
                 elif self.round_number > 1:
                     self.player.endowment = self.player.in_round(self.player.round_number - 1).payoff
@@ -63,7 +63,7 @@ class myPage3(Page):
         if self.subsession.round_number <= self.subsession.random_max_rounds:
             if self.round_number > Constants.govt_int:
                 if self.round_number == 1:
-                    self.player.endowment = c(350)
+                    self.player.endowment = c(100)
 
                 elif self.round_number > 1:
                     self.player.endowment = self.player.in_round(self.player.round_number - 1).payoff
