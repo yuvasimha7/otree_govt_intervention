@@ -12,7 +12,7 @@ SESSION_CONFIG_DEFAULTS = dict(
 SESSION_CONFIGS = [
      dict(
         name='big_push_no_int',
-        display_name="No Government Intervention",
+        display_name="low Government Intervention",
         num_demo_participants=7,
         app_sequence=['bigpush_low_int']
      ),
